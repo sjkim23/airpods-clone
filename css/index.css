@@ -1,0 +1,502 @@
+:root {
+    /* color */
+
+    /* font-black */
+    --font-black1 : #1d1d1f;
+    --font-black2 : #000000;
+    /* font-white */
+    --font-white1 : #f5f5f7;
+    --font-white2 : #ffffff;
+    /* font-links*/
+    --font-links : #0066cc;
+    /* footer */
+    --font-gray1 : #6e6e73;
+    --font-gray2 : #424245;
+    --font-gray3 : #999999;
+}
+
+.unit-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hide-text { 
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+}
+
+body {
+    background-color: #f8f8f9;
+}
+
+.apple-header-list {
+    background-color: #1d1d1f;
+    margin: 0;
+    height: 44px;
+    padding: 0 15px;
+}
+
+.apple-header-list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apple-logo {
+    background-image: url(../img/globalnav_apple_image__b5er5ngrzxqq_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-store {
+    background-image: url(../img/globalnav_links_store_image__c7jy08initqq_large.svg);
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 44px;
+    background-position: center;
+    opacity: 1;
+}
+
+.apple-mac {
+    background-image: url(../img/globalnav_links_mac_image__dazlko3t9a6a_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 39px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-ipad {
+    background-image: url(../img/globalnav_links_ipad_image__fw9qyj9lloi2_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-iphone {
+    background-image: url(../img/globalnav_links_iphone_image__ko7x4isga4ia_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 54px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-watch {
+    background-image: url(../img/globalnav_links_watch_image__gkoblojrlsqe_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 51px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-airpods {
+    background-image: url(../img/globalnav_links_airpods_image__f969s84ivmaa_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 58.99px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-tvhome {
+    background-image: url(../img/globalnav_links_tvhome_image__zb2ewyxbi6ae_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 58px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-onlyapple {
+    background-image: url(../img/globalnav_links_onlyonapple_image__c4t8k97tougm_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 96px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-accessory {
+    background-image: url(../img/globalnav_links_accessories_image__edj0wqmfwxyu_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55.99px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-customer {
+    background-image: url(../img/globalnav_links_support_image__bw9kctll7u3m_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55.44px;
+    height: 44px;
+    opacity: 1;
+}
+
+.apple-search {
+    background-image: url(../img/globalnav_search_image__cbllq1gkias2_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 31px;
+    height: 44px;
+    opacity: 1;
+    background-position: 8px 0;
+}
+
+.apple-mybag {
+    background-image: url(../img/globalnav_bag_image__yzte50i47ciu_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 29px;
+    height: 44px;
+    opacity: 1;
+}
+ /* 가운데 정렬 안됨 */
+.apple-chapter-list {
+    width: 100%;
+    height: 116px;
+    background-color: #fff;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.apple-chapter-list-item {
+    display: flex;
+    height: 116px;
+    position: relative;
+}
+
+.apple-chapter-item-container {
+    height: 96px;
+    padding: 0 20px;
+}
+
+.chapter-label {
+    font-size: 12px;
+    color: var(--font-black1);
+}
+
+.chapter-airpodspro2nd-new {
+    font-size: 10px;
+    color: #bf4800;
+}
+
+.chapter-airpods2nd-img {
+    background-image: url(../img/airpods_2gen_light__ckwbqlgv1r9e_large.svg);
+    width: 32px;
+    height: 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 7px;
+}
+
+.apple-chapter-airpods2nd-links {
+    width: 43.81px;
+    height: 93px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.chapter-airpods3rd-img {
+    background-image: url(../img/airpods_3gen_light__6r7zooyk4lua_large.svg);
+    width: 34px;
+    height: 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 7px;
+}
+
+.apple-chapter-airpods3rd-links {
+    width: 43.81px;
+    height: 93px;
+    text-decoration: none;
+}
+
+.chapter-airpodspro2nd-img {
+    background-image: url(../img/airpods_pro_light__ets5a19rt3au_large.svg);
+    width: 39px;
+    height: 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 7px;
+}
+
+.apple-chapter-airpodspro2nd-links {
+    width: 65.39px;
+    height: 93px;
+    text-decoration: none;
+}
+
+.chapter-airpodspro2nd-new {
+    display: block;
+    line-height: 1.4;
+}
+
+.chapter-airpodsmax-img {
+    background-image: url(../img/airpods_max_light__cvaaddhgazqu_large.svg);
+    width: 34px;
+    height: 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 7px;
+}
+
+.apple-chapter-airpodsmax-links {
+    width: 69.68px;
+    height: 77px;
+    text-decoration: none;
+}
+
+.chapter-compare-img {
+    background-image: url(../img/airpods_compare_light__cmuvdvbxj1w2_large.svg);
+    width: 45px;
+    height: 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 7px;
+}
+
+.apple-chapter-compare-links {
+    width: 45px;
+    height: 77px;
+    text-decoration: none;
+}
+
+.chapter-applemusic-img {
+    background-image: url(../img/apple_music_light__fexraacz3dme_large.svg);
+    width: 32px;
+    height: 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 7px;
+}
+
+.apple-chapter-applemusic-links {
+    width: 68.54px;
+    height: 77px;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.ribbon-wrapper {
+    height: 40px;
+    background-color: #f8f8f9;
+    text-align: center;
+    padding: 9px 0;
+}
+
+#ribbon-text {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#ribbon-text-more {
+    color: var(--font-links);
+    text-decoration: none;
+}
+
+.section-airpodspro {
+    width: 100%;
+    height: 669px;
+    position: relative;
+    /* display: block; */
+}
+
+.section-airpodspro-frame {
+    position: absolute;
+}
+
+.section-airpodspro-video {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.section-airpodspro-content {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#section-content-typo {
+    color: #00ff41;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.section-airpodspro-content > h3 {
+    color: var(--font-white1);
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.section-airpodspro-links {
+    display: flex;
+}
+
+.section-airpods-3rd {
+    width: 100%;
+    height: 630px;
+    background-color: #fff;
+    /* display: block; */
+    /* position: absolute; */
+}
+
+.section-airpods-frame {
+    position: absolute;
+    width: 100%;
+    height: 630px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.section-airpods-3rd-img {
+    background-image: url(../img/airpods_3rd_gen__dhy5bknhvtqq_medium_2x.jpg);
+    border-radius: 18px;
+    height: 630px;
+    width: 100%;
+    position: absolute;
+}
+
+.section-airpods-3rd-content {
+    position: relative;
+}
+
+.section-airpods-3rd-content >h3 {
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.section-airpods-typo {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.section-airpods-price {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.section-airpods-links {
+    position: relative;
+    display: flex;
+}
+
+.section-airpods-2nd {
+    width: 100%;
+    height: 630px;
+    background-color: #fff;
+}
+
+.section-airpods-2nd-img {
+    background-image: url(../img/airpods_2ndgen_left__gjpt8k836yy6_medium_2x.png);
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+    position: absolute;
+}
+
+.section-airpods-2nd-content {
+    position: relative;
+}
+
+.section-airpods-2nd-content >h3 {
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.section-airpods-max {
+    width: 100%;
+    height: 630px;
+    background-color: #fff;
+}
+
+.section-airpods-max-img {
+    background-image: url(../img/airpods_max__f265q4g4ddym_medium_2x.png);
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+    position: absolute;
+}
+
+.section-airpods-2nd-content {
+    position: relative;
+}
+
+.section-airpods-max-content >h3 {
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.section-connection > h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.gallery-setting-frame {
+    width: 330px;
+    height: 450px;
+    background-color: var(--font-white2);
+}
+
+.section-connection p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.gallery-settingtap-img {
+    background-image: url(../img/tile_onetap_setup__fzj1m8dhjoq6_medium_2x.jpg);
+    width: 330px;
+    height: 450px;
+}
+
+.gallery-spatialaudio-img {
+    background-image: url(../img/tile_spatial_audio__c9aidaa6ntkm_medium_2x.jpg);
+    width: 330px;
+    height: 450px;
+}
+
+.gallery-audiosharing-img {
+    background-image: url(../img/tile_audio_sharing__ord9ku1kssq6_medium_2x.jpg);
+    width: 330px;
+    height: 450px;
+}
+
+.gallery-switching-img {
+    background-image: url(../img/tile_automatic_switching__etjisgj91gk2_medium_2x.jpg);
+    width: 330px;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.gallery-siri-img {
+    background-image: url(../img/tile_siri__8ksinuow82qq_medium_2x.jpg);
+    width: 330px;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.gallery-accessibility-img {
+    background-image: url(../img/tile_accessibility__dx54ht0ycb8m_medium_2x.jpg);
+    width: 330px;
+    height: 450px;
+    background-repeat: no-repeat;
+}
